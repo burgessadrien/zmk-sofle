@@ -68,11 +68,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &kp C_BRIGHTNESS_INC  &kp F6           &kp F7           &kp F8            &kp F9             &kp F10           &kp DELETE
-&trans      &kp F11          &kp F12         &trans           &trans           &trans             &kp C_BRIGHTNESS_DEC  &kp PG_UP        &kp HOME         &kp UP            &kp END            &kp MINUS         &kp BACKSLASH
-&trans      &kp TILDE        &trans          &trans           &trans           &trans             &kp C_PREV            &kp PG_DN        &kp LEFT         &kp DOWN          &kp RIGHT          &kp LEFT_BRACKET  &kp GRAVE
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &kp C_NEXT            &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS         &kp ENTER
-&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &kp C_PLAY_PAUSE      &trans           &trans           &trans            &trans             &trans
+&kp GRAVE   &kp F1            &kp F2          &kp F3           &kp F4           &kp F5             &kp C_BRIGHTNESS_INC  &kp F6           &kp F7           &kp F8            &kp F9             &kp F10           &kp DELETE
+&trans      &kp F11           &kp F12         &trans           &trans           &trans             &kp C_BRIGHTNESS_DEC  &kp PG_UP        &kp HOME         &kp UP            &kp END            &kp MINUS         &kp BACKSLASH
+&trans      &kp TILDE         &trans          &trans           &trans           &trans             &kp C_PREV            &kp PG_DN        &kp LEFT         &kp DOWN          &kp RIGHT          &kp LEFT_BRACKET  &kp GRAVE
+&trans      &rgb_ug RGB_OFF   &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &kp C_NEXT            &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS         &kp ENTER
+&kp C_MUTE  &kp LEFT_CONTROL  &kp LEFT_GUI    &kp LEFT_ALT     &trans           &trans             &kp C_PLAY_PAUSE      &trans           &trans           &trans            &trans             &trans
             >;
 
             display-name = "layer1";
